@@ -1,0 +1,183 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+/* 文字-顏色自定義 */
+.colorRed {
+  color: #ff2600;
+}
+.colorBlack {
+  color: black;
+}
+.goblinColor {
+  color: #90ac47;
+}
+.colorYell {
+  color: gold;
+}
+.fontDelete {
+  text-decoration: line-through;
+}
+.fontAlign {
+  text-align: justify;
+  text-justify: distribute;
+}
+.fontCen {
+  text-align: center;
+}
+.fontBs {
+  font-size: 20px;
+}
+
+/* navbar logo 右邊文字垂直置中 */
+.logoText {
+  margin-bottom: 0px;
+}
+
+/* 要有勇氣去追隨你的心和直覺.. */
+.sliderText1 {
+}
+
+/* 即刻起參加活動... */
+.sliderText3 {
+  text-align: justify;
+  text-justify: distribute;
+  line-height: 1.7;
+}
+
+/* 活動內容區域上下間隔 */
+.page-section {
+  padding: 70px 0;
+}
+
+/* section-works */
+.section {
+  position: relative;
+  width: 100%;
+  margin: 0 0;
+  padding: 40px 0;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.cardPadding {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+.button.button-border {
+  border: 2px solid #90ac47;
+  background-color: transparent;
+  color: #90ac47;
+  font-weight: 700;
+  text-shadow: none;
+}
+
+.heading-block::after {
+  content: none;
+  display: block;
+  margin-top: 30px;
+  width: 40px;
+  border-top: 2px solid #444;
+}
+
+.scervices {
+  color: #fff;
+  font-size: 30px;
+}
+
+.textAlign {
+  text-align: justify;
+  text-justify: distribute;
+}
+
+div.workBgColor1 {
+  /* background-color: rgba(169, 201, 107, 0.5); */
+  background: #56ab2f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f1a0a0,
+    #f08078
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f1a0a0,
+    #f08078
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+div.workBgColor2 {
+  background: #3a7bd5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #a2c4f5,
+    #6b93a7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #a2c4f5,
+    #6b93a7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+div.workBgColor3 {
+  background: #2196f3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f08078,
+    #95bddd
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f08078,
+    #95bddd
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.content-wrap {
+  position: relative;
+  padding: 80px 0 0 0;
+  overflow: hidden;
+}
+
+.promo-dark {
+  border: 0 !important;
+  background-color: #000000;
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 20%);
+  border-radius: 3px;
+}
+.page-section {
+  padding: 70px 0 0 0px;
+}
+
+div h3.fontColorWhire {
+  color: white;
+}
+
+div ul li.fontColorWhire {
+  color: white;
+}
+
+.fontWeight {
+  font-weight: 800;
+}
+
+.oneRowMb {
+  margin-bottom: 30px;
+}
+
+.btnCenter {
+  padding-left: 70px;
+}
